@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Internet das coisas : A interconexão do futuro<</title>
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+		<link href="../icomoon/style.css" rel="stylesheet">
+		<link href="../normalize.css" rel="stylesheet">
+		<link href="css/faleconosco.css" rel="stylesheet">
+	</head>
+	<body>
+		<header class="top-header clearfix">
+			<img src="../imagens/logo_iot.png" alt="logotipo internet das coisas" class="top-header-logo">
+			<nav class="top-nav">
+				<ul>
+					<li><a href="../index.html">HOME</a></li>
+					<li><a href="../aplicacao/aplicacao.html">APLICAÇÃO</a></li>
+					<li><a href="../tecnologias/tecnologias.html">TECNOLOGIAS</a></li>
+					<li><a href="../industria4/industria4.html">INDUSTRIA 4.0</a></li>
+					<li><a href="faleconosco.html">FALE CONOSCO</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section class="top-content">
+			<h1 class="top-content-title">FALE CONOSCO</h1>
+		</section>
+		<section class="main-content">
+			<h2>Entre em contato com a gente e tire suas dúvidas!</h1>
+			<h4>Temos nossos serviços a todo tempo disponível! Diga qual a sua necessidade?</h2>
+			<h4>Preencha este formulário para contato!</h3>
+			<form method="post" id="fcontato" action="mailto:felipe.monteiro2626@gmail.com">
+				<fieldset id="usuario"><legend>Informações do cliente</legend>
+					<p><label for="cnome">Nome: <input type="text" name="tnome" id="cnome" size="50" maxlength="50" placeholder="Nome Completo"></p>
+					<p><label for="csenha">Senha <input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 dígitos"></p>
+					<p><label for="cemail">Email: <input type="email" name="temail" id="cemail" size="50" maxlength="50"></p>
+					<p><label for="cnumero">Telefone: </label> <input type="text" name="ttelefone" id="ctelefone"  size="15" maxlength="15"placeholder="Ex:(dd) 98976-6543"></p>
+
+					<br>
+					<fieldset id="sexo"><legend>Sexo:</legend>
+						<input type="radio" name="tsexo" id="cMasc"><label for="cMasc">Masculino</label><br>
+						<input type="radio" name="tsexo" id="cFem"><label for="cFem">Feminino</label>
+					</fieldset>
+					<br>
+					<p><label for="cnasc">Data de Nascimento: <input type="date" name="tnasc" id="cnasc"></p>
+				</fieldset>
+				<br>
+				<br>
+				<fieldset id="endereco"><legend>Endereço do cliente</legend>
+					<p><label for="crua">Logradouro: </label><input type="text" name="trua" id="crua" size="60" maxlength="60" placeholder="Rua, Trav..."></p>
+					<p><label for="cnumero">Número: </label> <input type="number" name="tnumero" id="cnumero" min="0" max="99999"></p>
+					<p><label for="cEst">Estado:</label><select name="tEst" id="cEst"></p>
+						<optgroup label="Região Sudeste">
+							<option value="RJ">Rio de Janeiro</option></p>
+							<option value="SP">São paulo</option></p>
+						</optgroup>
+						<optgroup label="Região Nordeste">
+							<option value="CE">Ceara</option></p>
+							<option value="PE">Pernambuco</option></p>
+						</optgroup>
+					</select></p>
+					<p><label for="ccid">Cidade:</label>
+					<input type="text" name="tcid" id="ccid" maxlength="30" size="30" list="cidades">
+					
+					</p>
+					<datalist id="cidades">
+						<option value="Rio de Janeiro">
+						<option value="Nova iguaçu">
+						<option value="Nitéroi">
+					</datalist>
+					
+					
+				</fieldset>
+				<br>
+				<br>
+				<fieldset id="mensagem"><legend>Diga-nos algo!Com Mensagem</legend>
+					<p><label for="curg">Grau de urgência:</label>
+					 Min<input type="range" name="turg" min="0" max="10" step="2">Max</p>
+					<p><label for="cmsg">Mensagem:</label><br><br>
+					<textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem!"></textarea>
+					</p>
+				<fieldset>
+			</form>	
+			<a href="#" class="button">ENVIAR</a>
+
+		</section>
+		
+		<footer class="footer">
+        <ul class="footer-menushare">
+            <li><a href="#" class="icon-facebook"><span class="hidden"></span></a></li>
+            <li><a href="https://www.instagram.com/felipe.monteiro26/" target="_blank"class="icon-instagram"><span class="hidden"></span></a></li>
+            <li><a href="#" class="icon-google-plus"><span class="hidden"></span></a></li>
+        </ul>
+        
+        <p>Copyright 2021 - by Felipe Monteiro</p>
+        <p>"A internet das coisas está transformando a vida das pessoas, tornando suas rotinas mais simples e mais eficazes."--FM
+        </p>
+		</footer>
+	</body>
+</html>
